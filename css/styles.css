@@ -1,0 +1,25 @@
+:root {
+    --color-light: #F4F5F9;
+}
+
+body {
+    font-family: "Heebo";
+}
+
+.bg-white {
+    background-color: var(--color-light) !important;
+}
+
+.banner {
+    min-height: 60vh;
+}
+
+.prime__images:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.social-media:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
